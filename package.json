@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
   "author": "Renreal Sobrepena",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "body-parser": "^1.20.3",
     "express": "^4.21.2",
+    "morgan": "^1.10.0",
     "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
